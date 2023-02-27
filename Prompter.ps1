@@ -33,4 +33,4 @@ function stringNotEmptyOrNull
 
 $res = GetInputTillValid -userPrompt "Please Enter your Name: " -validator { param($i) stringNotEmptyOrNull $i }
 
-Write-Host "User entered: $res"
+Write-Host "Value entered: $res"
